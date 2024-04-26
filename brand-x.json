@@ -3,31 +3,31 @@
     "Colors": {
       "Theme": {
         "theme": {
-          "value": "#f7fafc",
+          "value": "#004370",
           "type": "color",
           "$extensions": {
             "color_setup": {
-              "type": "lighten",
-              "color": "Theme/theme",
-              "onColor": "Theme/onTheme",
-              "state": "hover",
-              "intensity": "auto",
-              "lightenDarken": "auto"
+              "type": "primitive",
+              "color": "004370",
+              "onColor": "",
+              "state": "",
+              "intensity": "",
+              "lightenDarken": ""
             },
             "color_override": ""
           }            
         },
         "onTheme": {
-          "value": "#f7fafc",
+          "value": "",
           "type": "color",
           "$extensions": {
             "color_setup": {
-              "type": "lighten",
+              "type": "createOnColor",
               "color": "Theme/theme",
-              "onColor": "Theme/onTheme",
-              "state": "hover",
-              "intensity": "auto",
-              "lightenDarken": "auto"
+              "onColor": "",
+              "state": "",
+              "intensity": "",
+              "lightenDarken": ""
             },
             "color_override": ""
           }            
@@ -35,31 +35,31 @@
       },
       "Surface": {
         "surface": {
-          "value": "#f7fafc",
+          "value": "#FFFFFF",
           "type": "color",
           "$extensions": {
             "color_setup": {
-              "type": "lighten",
-              "color": "Theme/theme",
-              "onColor": "Theme/onTheme",
-              "state": "hover",
-              "intensity": "auto",
-              "lightenDarken": "auto"
+              "type": "primitive",
+              "color": "FFFFFF",
+              "onColor": "",
+              "state": "",
+              "intensity": "",
+              "lightenDarken": ""
             },
             "color_override": ""
           }            
         },
         "onSurface": {
-          "value": "#f7fafc",
+          "value": "",
           "type": "color",
           "$extensions": {
             "color_setup": {
-              "type": "lighten",
-              "color": "Theme/theme",
-              "onColor": "Theme/onTheme",
-              "state": "hover",
-              "intensity": "auto",
-              "lightenDarken": "auto"
+              "type": "createOnColor",
+              "color": "Surface/surface",
+              "onColor": "",
+              "state": "",
+              "intensity": "",
+              "lightenDarken": ""
             },
             "color_override": ""
           }            
