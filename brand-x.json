@@ -40,7 +40,7 @@
           "$extensions": {
             "color_setup": {
               "type": "primitive",
-              "color": "FFFFFF",
+              "color": "#FFFFFF",
               "onColor": "",
               "state": "",
               "intensity": "",
@@ -61,7 +61,7 @@
               "intensity": "",
               "lightenDarken": ""
             },
-            "color_override": ""
+            "color_override": "#EEEEEE"
           }            
         }
       }
