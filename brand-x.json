@@ -32,6 +32,38 @@
             "color_override": ""
           }            
         }
+      },
+      "Surface": {
+        "surface": {
+          "value": "#f7fafc",
+          "type": "color",
+          "$extensions": {
+            "color_setup": {
+              "type": "lighten",
+              "color": "Theme/theme",
+              "onColor": "Theme/onTheme",
+              "state": "hover",
+              "intensity": "auto",
+              "lightenDarken": "auto"
+            },
+            "color_override": ""
+          }            
+        },
+        "onSurface": {
+          "value": "#f7fafc",
+          "type": "color",
+          "$extensions": {
+            "color_setup": {
+              "type": "lighten",
+              "color": "Theme/theme",
+              "onColor": "Theme/onTheme",
+              "state": "hover",
+              "intensity": "auto",
+              "lightenDarken": "auto"
+            },
+            "color_override": ""
+          }            
+        }
       }
     }    
   }
